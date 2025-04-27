@@ -1,0 +1,30 @@
+.experience-wrapper {
+    color: $text-color;
+    margin-block: 50px;
+    .experience-list {
+        display: flex;
+        justify-content: center;
+        // flex-direction: column;
+        gap: 20px;
+        .experience-item {
+            height: 450px;
+            max-width: 300px;
+            padding: 20px;
+            background-color: $bg-color-3;
+            border-radius: 8px;
+            box-shadow: 0 0 7px #0000001f;
+            .experience-title {
+                font-size: 32px;
+                color: $text-color;
+                margin-bottom: 10px;
+                font-weight: 700;
+                line-height: 1;
+            }
+            .expirience-description {
+                font-size: 18px;
+                color: $text-color;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

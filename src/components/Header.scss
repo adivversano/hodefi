@@ -1,0 +1,28 @@
+.header-wrapper {
+    height: 90px;
+    background-color: $bg-color-3;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transform: all 0.3s ease;
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1);
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header-logo {
+            color: $text-color-2;
+            font-size: 24px;
+        }
+        .header-nav {
+            display: flex;
+            color: $text-color-2;
+            font-size: 18px;
+            > *:not(:last-child) {
+                margin-left: 20px;
+            }
+        }
+    }
+}

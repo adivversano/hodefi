@@ -1,0 +1,6 @@
+/// Converts pixels to rem based on a specified root font size.
+/// @param $px {Number} - The pixel value to be converted.
+/// @param $base-font-size {Number} - The root font size. Default is 16px.
+@function px-to-rem($px, $base-font-size: 16) {
+    @return $px / $base-font-size * 1rem;
+}

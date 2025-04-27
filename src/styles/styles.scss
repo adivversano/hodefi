@@ -1,0 +1,24 @@
+//vendors
+// @import "~bootstrap/scss/bootstrap";
+
+//basic
+@import "./basic/variables.scss";
+@import "./basic/animations.scss";
+@import "./basic/layout.scss";
+@import "./basic/fonts.scss";
+@import "./basic/functions.scss";
+@import "./basic/mixin.scss";
+@import "./basic/base.scss";
+
+
+//components
+@import "@components/Header.scss";
+@import "@components/Hero.scss";
+@import "@components/Summary.scss";
+@import "@components/ExperienceSection.scss";
+@import "@components/ResponseModal.scss";
+@import "@components/ContactForm.scss";
+// @import "@components/Footer.scss";
+
+//pages
+// @import "../app/not-found.scss";

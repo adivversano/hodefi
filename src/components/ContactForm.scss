@@ -1,0 +1,63 @@
+.contact-form {
+
+    .upper-fields {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 50px 0;
+        margin-bottom: 15px;
+        @media screen and (min-width: $breakpoint-lg) {
+            flex-direction: row;
+            margin-bottom: 30px;
+        }
+    }
+
+    .lower-fields {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    // input {
+    //     line-height: 46px;
+    // }
+
+    // label {
+    //     color: #a1a1a1;
+    //     font-family: MiriamLibre, sans-serif;
+    //     font-size: 18px;
+    //     @media screen and (min-width: $breakpoint-lg) {
+    //         font-size: 24px;
+    //     }
+    //     // padding-right: 10px;
+    // }
+
+    // .send-btn {
+    //     margin-bottom: 20px;
+    // }
+
+    .MuiFormControl-root {
+        width: 100% !important;
+    }
+    
+    // .MuiInputBase-root {
+    //     color: $text-color !important;
+    //     &::before {
+    //         border-color: #373d47 !important;
+    //     }
+    // }
+    
+    .MuiInputBase-input {
+        // padding-top: 10px !important;
+        // padding-bottom: 15px !important;
+        // font-size: 18px !important;
+        // @media screen and (min-width: $breakpoint-lg) {
+        //     font-size: 24px !important;
+        // }
+        // color: $text-color;
+        // min-height: 46px !important;
+    }
+}
+
+

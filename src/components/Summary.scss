@@ -1,0 +1,80 @@
+.summary-wrapper {
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: $bg-color;
+    .summary {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: right;
+
+        @include min-lg {
+            text-align: unset;
+            align-items: unset;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        @include min-xxl {
+            gap: unset;
+        }
+
+        .summary-content {
+            display: flex;
+            flex-direction: column;
+            // max-width: 800px;
+            margin-bottom: 48px;
+
+            @include min-lg {
+                margin-bottom: unset;
+            }
+
+            .summary-title {
+                color: $text-color;
+                margin-bottom: 10px;
+                font-weight: 700;
+                line-height: 1;
+                font-size: 32px;
+
+                @include min-lg {
+                    font-size: 64px;
+                }
+            }
+
+            .summary-description {
+                font-size: 16px;
+                color: $text-color;
+                margin-bottom: 20px;
+                @include min-lg {
+                    font-size: 24px;
+                }
+            }
+        }
+
+        .summary-img {
+            background-image: url("/assets/hodefi-1.jpg");
+            background-size: cover;
+            background-position: center center;
+            max-width: 290px;
+            aspect-ratio: 1067 / 1600;
+            width: 100%;
+            display: flex;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+            border-top: 2px solid $text-color-2;
+            border-left: 2px solid $text-color-2;
+            box-shadow:
+                -14px -14px 0px 0px $bg-color-3,
+                0 0 7px #0000001f;
+
+            margin-left: 14px;
+
+            @include min-xxl {
+                margin-left: unset;
+            }
+        }
+    }
+}
