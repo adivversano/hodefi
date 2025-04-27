@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    basePath: "/hodefi",
-    assetPrefix: "/hodefi",
-};
+const nextConfig = {};
 
 export default nextConfig;
 
